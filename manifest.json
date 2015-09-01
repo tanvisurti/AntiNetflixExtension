@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "description": "Can't control your Netflix Binges? Use the Anti-Netflix extensions to better manage how much time you spend on Netflix",
+   "icons": {
+      "128": "antinetflix.png",
+      "16": "antinetflix.png",
+      "48": "antinetflix.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmcaAeaT6GtV49RRea9cmXRaOTIjT8GhS04xJnkw1F88kWQzfHUy9bRthrKjqCjJ22HrahFel6Eqt0gjxhDy7WXk4JMJTzdokAF10pl48hJ9sPvClj9vmlgX5oRSeszzYc7FwRPM8HPbAqNLUb0DCOVcADI/9qqDAhjMTJJTalJDSI6BSAARuqJeSkpux+O5Sw7Er0ClWtwJwuI3LB2Y9v/TSEGt9pwoEO8PNMXFSpwifLoIFMqKsAv9Qy6X4no23MNVKtrO9TfGh8IUwOuCFQkBQTwQYdFd0xxsi740jPLrreQ1MQeh9KRmdLm2wxe495b3zmMXpTEkZsQNVYnKZ/QIDAQAB",
+   "manifest_version": 2,
+   "name": "The Anti-Netflix",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "netflix.png",
+      "default_popup": "popup.html"
+   },
+   "permissions": [ "tabs", "webNavigation", "storage", "management" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}

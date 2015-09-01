@@ -1,0 +1,69 @@
+<html>
+<head>
+<style>
+
+body {
+	background-color: rgb(233, 62, 48);
+	width: 150px;
+	height: 100px;
+}
+
+.timer {
+	background-color: white;
+	width: 85%;
+	height: 40%;
+	margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+	
+}
+
+.title {
+	top: 5%;
+	width: 85%;
+	height: 30%;
+	margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+}
+
+.footer {
+	position: absolute;
+	bottom: 2%;
+	width: 95%;
+	height: 15`%;
+	margin-left: auto;
+    margin-right: auto;
+	overflow: hidden;
+	text-align: right;
+}
+
+.time {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	em: bold;
+	margin: 0;
+}
+
+.text {
+	width: 85%;
+	height: 40%;
+	margin-left: auto;
+    margin-right: auto;
+	color: white;
+	font-size: 15px;
+	vertical-align: center;
+		margin: 0;
+}
+
+</style>
+</head>
+
+<body>
+	<div class= title><p class=text>Remaining Time</p></div>
+	<div class=timer><p id=time class=time>00:00:00</p></div>
+	<div class= footer><p><a href='options.html' target="_blank" > Change Settings</a></p></div>
+  <script src="popup.js"></script>	
+</body>
+</html>
